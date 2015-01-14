@@ -12,10 +12,9 @@ setup(
     version = bottle_utils.__version__,
     author = 'Outernet Inc',
     author_email = 'branko@outernet.is',
-    description = ('Assortment of frequently used utilities for Bottle '
-                   'framework'),
+    description = ('CSRF utilities for developing apps with Bottle web framework'),
     license = 'BSD',
-    keywords = 'bottle utils i18n http lazy csrf ajax',
+    keywords = 'bottle utils csrf',
     url = 'http://outernet-project.github.io/bottle-utils/',
     packages=find_packages(),
     long_description=read('README.rst'),
